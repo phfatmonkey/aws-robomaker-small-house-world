@@ -5,22 +5,30 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_airconditionera_01_collision_collider_box">
+        <pose>0.002692 -0.00229 0.122153 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.212643 0.816304 0.258514</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_airconditionera_01_collision_collider_box.001">
+        <pose>-0.074357 -0.494286 0.124341 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.058545 0.193686 0.502373</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE</uri>
-          </mesh>
-        </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
 	<static>1</static>
   </model>
