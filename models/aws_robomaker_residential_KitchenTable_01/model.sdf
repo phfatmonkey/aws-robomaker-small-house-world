@@ -5,22 +5,70 @@
       <inertial>
         <mass>12.3</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_kitchentable_01_collision_collider_box">
+        <pose>0.0 0.0 0.779776 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.721074 1.820408 0.077366</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_kitchentable_01_collision_collider_box.001">
+        <pose>0.165048 -0.694343 0.385852 0.0 -0.139945 -0.0</pose>
+        <geometry>
+          <box>
+            <size>0.097876 0.115479 0.779324</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_kitchentable_01_collision_collider_box.002">
+        <pose>-0.168319 -0.694343 0.385852 0.0 0.139945 -0.0</pose>
+        <geometry>
+          <box>
+            <size>0.097876 0.115479 0.779324</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_kitchentable_01_collision_collider_box.003">
+        <pose>0.165048 0.690474 0.385852 0.0 -0.139945 -0.0</pose>
+        <geometry>
+          <box>
+            <size>0.097876 0.104818 0.779324</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_kitchentable_01_collision_collider_box.004">
+        <pose>-0.168319 0.690474 0.385852 0.0 0.139945 -0.0</pose>
+        <geometry>
+          <box>
+            <size>0.097876 0.104818 0.779324</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_kitchentable_01_collision_collider_box.005">
+        <pose>-0.004348 -0.681348 0.317243 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.271384 0.085795 0.052134</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_kitchentable_01_collision_collider_box.006">
+        <pose>-0.004348 0.691593 0.317243 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.271384 0.085795 0.052134</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
   </model>
 </sdf>

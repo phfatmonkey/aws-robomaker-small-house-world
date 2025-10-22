@@ -5,22 +5,22 @@
       <inertial>
         <mass>51.7</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_wardrobe_01_collision_collider_box">
+        <pose>-0.000356 0.015709 1.071934 1.570796 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>1.002409 2.145276 0.61334</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
     <static>1</static>
   </model>

@@ -5,22 +5,30 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_rangehood_01_collision_collider_box">
+        <pose>-0.017006 -0.001646 0.067597 0.0 0.0 -1.570796</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>1.24541 0.561694 0.171777</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_rangehood_01_collision_collider_box.001">
+        <pose>0.099561 -0.001646 0.638169 0.0 0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.441966 0.32856 0.963112</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 2 </layer></meta>
-</visual>
+        <meta> <layer> 2 </layer></meta>
+      </visual>
     </link>
 	<static>1</static>
   </model>

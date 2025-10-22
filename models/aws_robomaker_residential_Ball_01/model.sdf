@@ -17,19 +17,11 @@
       </inertial>
       <collision name="collision">
 
-        <!--  <pose frame=''>0.0 0 0.31 0 -0 0</pose> -->
-    
+        <pose>0.0 0.0 0.313188 0.0 -0.0 0.0</pose>
         <geometry>
-        <!-- 
-          <mesh>
-            <uri>file://models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
-        -->
-          <sphere>
-            <radius>0.31 </radius>
-          </sphere>
-          
+          <ellipsoid>
+            <radii>0.322048 0.322048 0.322048</radii>
+          </ellipsoid>
         </geometry>
 
         <surface>

@@ -5,12 +5,92 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_housewallb_01_collision_collider_box">
+        <pose>-1.996084 -5.602745 1.5 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>15.007833 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.001">
+        <pose>8.005939 -5.602745 1.5 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>2.997025 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.002">
+        <pose>9.401368 -1.199342 1.5 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>8.608625 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.003">
+        <pose>7.069981 3.199887 1.5 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>4.859607 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.004">
+        <pose>-5.900631 3.199887 1.5 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>7.207542 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.005">
+        <pose>-9.399357 -1.199342 1.5 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>8.608625 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.006">
+        <pose>-2.601289 2.20658 1.5 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>1.796781 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.007">
+        <pose>-2.601289 -4.591736 1.5 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>1.796781 0.200933 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.008">
+        <pose>-2.430086 4.481725 1.344537 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>2.427654 0.202697 2.689075</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.009">
+        <pose>4.772851 4.481725 1.344537 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>2.427654 0.202697 2.689075</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_housewallb_01_collision_collider_box.010">
+        <pose>1.073543 5.597441 1.344537 0.0 -0.0 -3.141593</pose>
+        <geometry>
+          <box>
+            <size>7.207467 0.202697 2.689075</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">

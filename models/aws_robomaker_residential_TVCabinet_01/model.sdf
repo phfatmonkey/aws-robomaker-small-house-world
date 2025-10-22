@@ -17,23 +17,71 @@
 
       </inertial>
 
-      <collision name="collision">
+      <collision name="aws_tvcabinet_01_collision_collider_box">
+        <pose>-0.01158 0.001218 0.173305 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.559922 2.796524 0.071322</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_tvcabinet_01_collision_collider_box.001">
+        <pose>-0.01158 -0.210066 0.310106 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.559922 2.373957 0.203026</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_tvcabinet_01_collision_collider_box.002">
+        <pose>0.009077 -0.161338 0.458343 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.601235 2.471413 0.102932</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_tvcabinet_01_collision_collider_box.003">
+        <pose>-0.250972 -1.358847 0.080438 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.073914 0.072494 0.127337</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_tvcabinet_01_collision_collider_box.004">
+        <pose>0.22672 -1.358847 0.080438 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.073914 0.072494 0.127337</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_tvcabinet_01_collision_collider_box.005">
+        <pose>-0.250972 1.329471 0.080438 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.073914 0.067975 0.127337</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_tvcabinet_01_collision_collider_box.006">
+        <pose>0.22672 1.329471 0.080438 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.073914 0.067975 0.127337</size>
+          </box>
         </geometry>
       </collision>
 
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
   <static>1</static>
   </model>

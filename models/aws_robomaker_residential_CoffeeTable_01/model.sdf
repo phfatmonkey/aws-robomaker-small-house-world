@@ -16,15 +16,72 @@
 
 
       </inertial>
-      
-      <collision name="collision">
+      <collision name="aws_coffeetable_01_collision_collider_box">
+        <pose>-0.309667 -0.161007 0.161882 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.694767 0.33706 0.323764</size>
+          </box>
         </geometry>
-
+      </collision>
+      <collision name="aws_coffeetable_01_collision_collider_box.001">
+        <pose>0.006415 0.004546 0.311061 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>1.32693 0.668167 0.025406</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_coffeetable_01_collision_collider_box.002">
+        <pose>0.006415 0.004546 0.013783 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>1.32693 0.668167 0.025406</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_coffeetable_01_collision_collider_box.003">
+        <pose>0.338478 -0.318621 0.162405 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.662802 0.022593 0.274656</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_coffeetable_01_collision_collider_box.004">
+        <pose>0.338478 0.008093 0.162405 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.662802 0.018158 0.274656</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_coffeetable_01_collision_collider_box.005">
+        <pose>0.652256 0.168856 0.162405 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.035246 0.339683 0.274656</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_coffeetable_01_collision_collider_box.006">
+        <pose>-0.004561 0.168856 0.162405 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.035246 0.339683 0.274656</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_coffeetable_01_collision_collider_box.007">
+        <pose>-0.325673 0.326292 0.162405 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.662802 0.024731 0.274656</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="collision">
+        <!-- Maintained surface properties from previous collision -->
         <surface>
           <contact>
             <ode>

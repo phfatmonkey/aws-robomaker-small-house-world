@@ -13,12 +13,28 @@
           <izz>0.0018767</izz>
         </inertia>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_securitycamera_01_collision_collider_box">
+        <pose>0.001235 -0.001619 0.099241 1.570796 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.074663 0.096176 0.064551</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_securitycamera_01_collision_collider_box.001">
+        <pose>0.001235 0.000319 0.010661 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.107932 0.022345 0.104272</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_securitycamera_01_collision_collider_box.002">
+        <pose>0.001235 0.011757 0.037228 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.041894 0.036982 0.028621</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">

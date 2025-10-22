@@ -5,15 +5,15 @@
       <inertial>
         <mass>100</mass>
       </inertial>
-      
-      <collision name="collision">
-        <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE</uri>
-            <scale>1 1 0.9</scale>
-          </mesh>
-        </geometry>
 
+      <collision name="aws_floorb_01_collision_collider_box">
+        <pose>0.0 -1.198899 -0.022645 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>19.0 9.002209 0.04529</size>
+          </box>
+        </geometry>
+        <!-- Maintained surface property from previous collision -->
         <surface>
           <friction>
             <ode>
@@ -23,15 +23,31 @@
           </friction>
         </surface>
       </collision>
-      
+      <collision name="aws_floorb_01_collision_collider_box.001">
+        <pose>1.168851 4.50076 -0.020928 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>7.34219 2.398109 0.041855</size>
+          </box>
+        </geometry>
+        <!-- Maintained surface property from previous collision -->
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
 
 	<static>1</static>

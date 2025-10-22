@@ -25,12 +25,20 @@
         </inertia>
       </inertial>
 
-      <collision name="collision">
+      <collision name="aws_deskportraitb_01_collision_collider_box">
+        <pose>-0.000123 -0.045954 0.118911 1.570796 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.169357 0.238934 0.01206</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_deskportraitb_01_collision_collider_box.001">
+        <pose>-0.000123 0.002298 0.09046 2.242701 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.044078 0.1509 0.005863</size>
+          </box>
         </geometry>
       </collision>
 

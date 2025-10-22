@@ -5,22 +5,38 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="asw_curtain_01_collision_collider_box">
+        <pose>-0.000145 -0.008654 0.011756 0.0 0.020293 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.001074 0.005887 0.023513</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="asw_curtain_01_collision_collider_box.001">
+        <pose>-0.000145 0.008944 0.011756 0.0 0.020293 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.001074 0.005887 0.023513</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="asw_curtain_01_collision_collider_box.002">
+        <pose>0.000156 0.000111 0.024064 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.001051 0.024288 0.00112</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 2 </layer></meta>
-</visual>
+        <meta> <layer> 2 </layer></meta>
+      </visual>
     </link>
 	<static>1</static>
   </model>

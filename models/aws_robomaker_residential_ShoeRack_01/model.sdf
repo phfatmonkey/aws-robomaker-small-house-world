@@ -15,13 +15,12 @@
           </inertia>
       </inertial>
 
-      <collision name="collision">
-
+      <collision name="aws_shoerack_01_collision_collider_box">
+        <pose>0.427684 0.001028 0.5693 1.570796 -0.0 3.141593</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.0326 1.147528 0.310044</size>
+          </box>
         </geometry>
 
         <surface>
@@ -39,7 +38,126 @@
           </contact>
 
         </surface>
+      </collision>
+      <collision name="aws_shoerack_01_collision_collider_box.001">
+        <pose>-0.434439 0.001028 0.5693 1.570796 -0.0 3.141593</pose>
+        <geometry>
+          <box>
+            <size>0.032041 1.147528 0.310044</size>
+          </box>
+        </geometry>
 
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+            </ode>
+          </friction>
+
+          <contact>
+            <ode>
+              <kd>2500</kd>
+            </ode>
+          </contact>
+
+        </surface>
+      </collision>
+      <collision name="aws_shoerack_01_collision_collider_box.002">
+        <pose>-0.002193 -0.000255 0.054054 1.570796 -0.0 3.141593</pose>
+        <geometry>
+          <box>
+            <size>0.905175 0.05147 0.302693</size>
+          </box>
+        </geometry>
+
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+            </ode>
+          </friction>
+
+          <contact>
+            <ode>
+              <kd>2500</kd>
+            </ode>
+          </contact>
+
+        </surface>
+      </collision>
+      <collision name="aws_shoerack_01_collision_collider_box.003">
+        <pose>-0.002193 -0.000255 0.357489 1.570796 -0.0 3.141593</pose>
+        <geometry>
+          <box>
+            <size>0.905175 0.038071 0.302693</size>
+          </box>
+        </geometry>
+
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+            </ode>
+          </friction>
+
+          <contact>
+            <ode>
+              <kd>2500</kd>
+            </ode>
+          </contact>
+
+        </surface>
+      </collision>
+      <collision name="aws_shoerack_01_collision_collider_box.004">
+        <pose>-0.002193 -0.000255 0.669599 1.570796 -0.0 3.141593</pose>
+        <geometry>
+          <box>
+            <size>0.905175 0.038071 0.302693</size>
+          </box>
+        </geometry>
+
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+            </ode>
+          </friction>
+
+          <contact>
+            <ode>
+              <kd>2500</kd>
+            </ode>
+          </contact>
+
+        </surface>
+      </collision>
+      <collision name="aws_shoerack_01_collision_collider_box.005">
+        <pose>-0.002193 -0.000255 0.985681 1.570796 -0.0 3.141593</pose>
+        <geometry>
+          <box>
+            <size>0.905175 0.038071 0.302693</size>
+          </box>
+        </geometry>
+
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+            </ode>
+          </friction>
+
+          <contact>
+            <ode>
+              <kd>2500</kd>
+            </ode>
+          </contact>
+
+        </surface>
       </collision>
 
       <visual name="visual">

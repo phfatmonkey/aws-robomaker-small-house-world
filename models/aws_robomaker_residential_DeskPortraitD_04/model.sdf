@@ -29,16 +29,14 @@
             <izz>0.0803</izz>
           </inertia>
       </inertial>
-
-
-      <collision name="collision">
+      <collision name="aws_deskportraitd_01_collision_collider_box">
+        <pose>-5.4e-05 -1.9e-05 0.006286 1.570796 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.148624 0.012943 0.043219</size>
+          </box>
         </geometry>
-
+        <!-- Maintained surface property from previous collision -->
         <surface>
           <friction>
             <ode>
@@ -54,10 +52,31 @@
           </contact>
 
         </surface>
-
       </collision>
+      <collision name="aws_deskportraitd_01_collision_collider_box.001">
+        <pose>-5.4e-05 -1.9e-05 0.072466 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.121271 0.119828 0.011818</size>
+          </box>
+        </geometry>
+        <!-- Maintained surface property from previous collision -->
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.7</mu>
+              <mu2>0.7</mu2>
+            </ode>
+          </friction>
 
-      
+          <contact>
+            <ode>
+              <kd>28500</kd>
+            </ode>
+          </contact>
+
+        </surface>
+      </collision>
       <visual name="visual">
 	    <geometry>
           <mesh>

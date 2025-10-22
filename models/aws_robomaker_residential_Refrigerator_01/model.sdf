@@ -5,22 +5,62 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_refrigerator_01_collision_collider_box">
+        <pose>0.000483 0.05069 1.013312 1.570796 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>1.044368 1.894467 0.736233</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_refrigerator_01_collision_collider_box.001">
+        <pose>0.000483 -0.323412 1.138131 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.157568 1.08116 0.161295</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_refrigerator_01_collision_collider_box.002">
+        <pose>-0.441326 -0.09046 0.038571 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.123006 0.077142 0.120046</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_refrigerator_01_collision_collider_box.003">
+        <pose>0.42751 -0.09046 0.038571 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.123006 0.077142 0.120046</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_refrigerator_01_collision_collider_box.004">
+        <pose>-0.441326 0.322792 0.038571 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.123006 0.077142 0.120046</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_refrigerator_01_collision_collider_box.005">
+        <pose>0.42751 0.322792 0.038571 1.570796 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.123006 0.077142 0.120046</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+    </visual>
     </link>
     <static>1</static>
   </model>

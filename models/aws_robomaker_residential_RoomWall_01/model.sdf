@@ -5,22 +5,22 @@
       <inertial>
         <mass>100</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_roomwall_01_collision_collider_box">
+        <pose>-0.02148 -0.000203 0.928801 1.570796 -0.0 3.141593</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>4.485341 1.877536 0.111118</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 2 </layer></meta>
-</visual>
+        <meta> <layer> 2 </layer></meta>
+      </visual>
     </link>
   <static>1</static>
   </model>

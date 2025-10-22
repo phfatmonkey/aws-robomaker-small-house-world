@@ -14,22 +14,78 @@
           </inertia>
       </inertial>
 
-      <collision name="collision">
+      <collision name="aws_chaira_01_collision_collider_box">
+        <pose>-0.01307 -0.0 0.377813 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.436139 0.483645 0.079336</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chaira_01_collision_collider_box.001">
+        <pose>0.178182 0.000428 0.64977 0.0 0.0723 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.066191 0.399481 0.533604</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chaira_01_collision_collider_box.002">
+        <pose>-0.016074 0.210338 0.520987 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.40864 0.059643 0.219694</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chaira_01_collision_collider_box.003">
+        <pose>-0.016074 -0.215239 0.520987 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.40864 0.056326 0.219694</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chaira_01_collision_collider_box.004">
+        <pose>-0.182651 0.210338 0.186671 0.0 0.055563 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.054746 0.048883 0.373457</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chaira_01_collision_collider_box.005">
+        <pose>-0.182651 -0.213921 0.186671 0.0 0.055563 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.054746 0.048883 0.373457</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chaira_01_collision_collider_box.006">
+        <pose>0.157512 0.210338 0.186448 0.0 -0.073993 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.054746 0.048883 0.373457</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chaira_01_collision_collider_box.007">
+        <pose>0.157512 -0.213921 0.186448 0.0 -0.073993 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.054746 0.048883 0.373457</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
   </model>
 </sdf>

@@ -5,22 +5,54 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_chandelier_01_collision_collider_box">
+        <pose>0.001882 -0.009374 0.146931 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.923758 0.933699 0.321067</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chandelier_01_collision_collider_box.001">
+        <pose>0.001882 -0.009374 0.43284 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.745411 0.753432 0.234658</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chandelier_01_collision_collider_box.002">
+        <pose>0.001882 -0.009374 0.630407 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.500121 0.505503 0.15744</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chandelier_01_collision_collider_box.003">
+        <pose>0.001882 -0.009374 0.781596 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.289806 0.292924 0.147012</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_chandelier_01_collision_collider_sphere">
+        <pose>0.001882 -0.009373 0.864851 0.0 -0.0 0.0</pose>
+        <geometry>
+          <ellipsoid>
+            <radii>0.073626 0.073626 0.073626</radii>
+          </ellipsoid>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 2 </layer></meta>
-</visual>
+        <meta> <layer> 2 </layer></meta>
+      </visual>
     </link>
 	<static>1</static>
   </model>

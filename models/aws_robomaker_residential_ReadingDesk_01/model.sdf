@@ -13,22 +13,70 @@
             <izz> 0.57375</izz>
           </inertia>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_deskb_01_collision_collider_box">
+        <pose>-0.002938 0.000884 0.727166 1.570796 -0.0 1.570796</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>1.15439 0.03297 0.532125</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_deskb_01_collision_collider_box.001">
+        <pose>0.002939 -0.409902 0.596772 1.570796 -0.0 1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.291407 0.228623 0.520371</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_deskb_01_collision_collider_box.002">
+        <pose>0.002939 0.412792 0.596772 1.570796 -0.0 1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.291407 0.228623 0.520371</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_deskb_01_collision_collider_box.003">
+        <pose>0.219829 -0.535331 0.24382 1.570796 -0.0 1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.031976 0.490549 0.059089</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_deskb_01_collision_collider_box.004">
+        <pose>-0.223823 -0.535331 0.24382 1.570796 -0.0 1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.031976 0.490549 0.059089</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_deskb_01_collision_collider_box.005">
+        <pose>0.219829 0.533217 0.24382 1.570796 -0.0 1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.031976 0.490549 0.059089</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_deskb_01_collision_collider_box.006">
+        <pose>-0.223823 0.533217 0.24382 1.570796 -0.0 1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.031976 0.490549 0.059089</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
   </model>
 </sdf>

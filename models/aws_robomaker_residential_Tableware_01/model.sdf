@@ -5,22 +5,30 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_tableware_01_collision_collider_box">
+        <pose>0.00198 0.01049 0.040805 0.0 -0.0 -0.107802</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.341099 0.128253 0.082722</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_tableware_01_collision_collider_box.001">
+        <pose>0.050806 0.00017 0.117559 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.200569 0.204278 0.23623</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
   </model>
 </sdf>

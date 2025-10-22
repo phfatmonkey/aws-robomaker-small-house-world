@@ -5,22 +5,78 @@
       <inertial>
         <mass>80</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_fitnessequipment_01_collision_collider_box">
+        <pose>0.343502 -0.509288 0.609574 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.218982 0.09555 0.567864</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_fitnessequipment_01_collision_collider_box.001">
+        <pose>0.334 -0.509288 0.162654 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.407815 0.09555 0.336541</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_fitnessequipment_01_collision_collider_box.002">
+        <pose>0.343502 0.511882 0.609574 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.218982 0.09555 0.567864</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_fitnessequipment_01_collision_collider_box.003">
+        <pose>0.334 0.511882 0.162654 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.407815 0.09555 0.336541</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_fitnessequipment_01_collision_collider_box.004">
+        <pose>-0.110715 -0.001014 0.370817 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.871802 0.304509 0.049807</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_fitnessequipment_01_collision_collider_box.005">
+        <pose>-0.473251 6.2e-05 0.018904 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.057064 0.411969 0.049041</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_fitnessequipment_01_collision_collider_box.006">
+        <pose>-0.45162 6.2e-05 0.190595 0.0 0.121229 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.078162 0.082193 0.344596</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_fitnessequipment_01_collision_collider_box.007">
+        <pose>0.279718 6.2e-05 0.319979 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.056511 0.945717 0.07974</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
   <static>1</static>
   </model>

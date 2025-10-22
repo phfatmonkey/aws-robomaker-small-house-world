@@ -7,24 +7,78 @@
         <mass>72.5</mass>
       </inertial>
 
-      <collision name="collision">
-      
+      <collision name="aws_sofac_01_collision_collider_box">
+        <pose>-0.726905 0.021091 0.213744 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>0.93089 2.278346 0.427889</size>
+          </box>
         </geometry>
-
+      </collision>
+      <collision name="aws_sofac_01_collision_collider_box.001">
+        <pose>0.402231 0.701816 0.213744 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>1.367418 0.911841 0.427889</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_sofac_01_collision_collider_box.002">
+        <pose>-1.06583 0.013177 0.674886 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.128322 2.211195 0.351842</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_sofac_01_collision_collider_box.003">
+        <pose>-0.007498 1.040782 0.674892 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.128322 2.189046 0.35052</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_sofac_01_collision_collider_box.004">
+        <pose>-0.944728 0.013177 0.653954 0.0 -0.60825 -0.0</pose>
+        <geometry>
+          <box>
+            <size>0.12829 2.211195 0.387084</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_sofac_01_collision_collider_box.005">
+        <pose>0.14742 0.929551 0.644881 0.0 -0.571526 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.12829 2.211195 0.387084</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_sofac_01_collision_collider_box.006">
+        <pose>-0.548079 -1.144796 0.568667 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.57473 0.157525 0.18946</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="aws_sofac_01_collision_collider_box.007">
+        <pose>1.131572 0.539676 0.56771 0.0 -0.0 -1.570796</pose>
+        <geometry>
+          <box>
+            <size>0.57473 0.157525 0.18946</size>
+          </box>
+        </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
   </model>
 </sdf>

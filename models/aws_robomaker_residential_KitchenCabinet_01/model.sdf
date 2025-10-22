@@ -5,51 +5,55 @@
       <inertial>
         <mass>1</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="aws_kitchencabinet_01_collision_collider_box">
+        <pose>-4.3e-05 1.302104 0.45085 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>2.582186 0.619227 0.911266</size>
+          </box>
+        </geometry>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <!--
-        <bounce>
-          <restitution_coefficient>0</restitution_coefficient>
-          <threshold>1e+06</threshold>
-        </bounce>
-        <contact>
-          <collide_without_contact>0</collide_without_contact>
-          <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-          <collide_bitmask>1</collide_bitmask>
-          <ode>
-            <soft_cfm>0</soft_cfm>
-            <soft_erp>0.2</soft_erp>
-            <kp>1e+13</kp>
-            <kd>1</kd>
-            <max_vel>0.01</max_vel>
-            <min_depth>0</min_depth>
-          </ode>
-          <bullet>
-            <split_impulse>1</split_impulse>
-            <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-            <soft_cfm>0</soft_cfm>
-            <soft_erp>0.2</soft_erp>
-            <kp>1e+13</kp>
-            <kd>1</kd>
-          </bullet>
-        </contact>
-        !-->
-        <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE</uri>
-            <scale>1 1 1</scale>
-          </mesh>
-        </geometry>
       </collision>
+      <collision name="aws_kitchencabinet_01_collision_collider_box.001">
+        <pose>-0.98762 -0.310566 0.449872 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.607031 2.609778 0.90931</size>
+          </box>
+        </geometry>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name="aws_kitchencabinet_01_collision_collider_box.002">
+        <pose>-0.202441 1.459795 1.0182 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.146637 0.068513 0.23904</size>
+          </box>
+        </geometry>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name="aws_kitchencabinet_01_collision_collider_box.003">
+        <pose>-0.221264 1.365189 1.099182 0.0 -0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.020685 0.118187 0.077075</size>
+          </box>
+        </geometry>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+      </collision>
+      
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
 
     <static>1</static>

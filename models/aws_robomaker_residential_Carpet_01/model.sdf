@@ -8,12 +8,11 @@
       
       <collision name="collision">
 
+        <pose>-4.8e-05 -9.6e-05 0.001433 0.0 -0.0 0.0</pose>
         <geometry>
-          <mesh>
-            <uri>model://aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE</uri>
-            <!-- <scale>0.9 0.9 0.9</scale> -->
-            <scale>1 1 0.95</scale>
-          </mesh>
+          <box>
+            <size>3.466757 4.013335 0.003443</size>
+          </box>
         </geometry>
 
         <surface>        
@@ -34,13 +33,13 @@
       </collision>
       
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta> <layer> 1 </layer></meta>
+      </visual>
     </link>
 
     <static>1</static>
