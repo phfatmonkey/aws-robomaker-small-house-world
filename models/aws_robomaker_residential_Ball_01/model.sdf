@@ -17,7 +17,7 @@
       </inertial>
       <collision name="collision">
 
-        <pose>0.0 0.0 0.313188 0.0 -0.0 0.0</pose>
+        <pose>0.0 0.0 0.0 0.0 -0.0 0.0</pose>
         <geometry>
           <ellipsoid>
             <radii>0.322048 0.322048 0.322048</radii>

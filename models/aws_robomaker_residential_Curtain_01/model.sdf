@@ -6,26 +6,26 @@
         <mass>1</mass>
       </inertial>
       <collision name="asw_curtain_01_collision_collider_box">
-        <pose>-0.000145 -0.008654 0.011756 0.0 0.020293 0.0</pose>
+        <pose>-0.029826 -0.859375 1.222486 0.0 -0.0 0.0</pose>
         <geometry>
           <box>
-            <size>0.001074 0.005887 0.023513</size>
+            <size>0.128573 0.584579 2.444975</size>
           </box>
         </geometry>
       </collision>
       <collision name="asw_curtain_01_collision_collider_box.001">
-        <pose>-0.000145 0.008944 0.011756 0.0 0.020293 0.0</pose>
+        <pose>-0.029826 0.894402 1.222486 0.0 -0.0 0.0</pose>
         <geometry>
           <box>
-            <size>0.001074 0.005887 0.023513</size>
+            <size>0.128573 0.584579 2.444975</size>
           </box>
         </geometry>
       </collision>
       <collision name="asw_curtain_01_collision_collider_box.002">
-        <pose>0.000156 0.000111 0.024064 0.0 -0.0 0.0</pose>
+        <pose>-0.013773 0.011117 2.405972 0.0 -0.0 0.0</pose>
         <geometry>
           <box>
-            <size>0.001051 0.024288 0.00112</size>
+            <size>0.160678 2.428851 0.078003</size>
           </box>
         </geometry>
       </collision>
